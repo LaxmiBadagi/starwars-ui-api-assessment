@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from utils.driver_factory import create_driver
 from pages.movie_page import MoviePage
 
-# 📁 Ensure screenshot directory exists
+
 SCREENSHOT_DIR = "screenshots"
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
 
